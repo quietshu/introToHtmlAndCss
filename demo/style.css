@@ -1,0 +1,31 @@
+ul{
+	list-style: none;
+	vertical-align: top;
+}
+
+li{
+	display: inline-block;
+	width: 80px;
+	background: yellow;
+	text-align: center;
+	vertical-align: top;
+}
+
+li > ul{
+	background: blue;
+	display: none;
+}
+
+li li{
+	/* position: absolute; */
+	background: blue;
+	width: 40px;
+}
+
+li:hover>ul{
+	display: block;
+}
+
+li:hover{
+	color: white;
+}

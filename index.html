@@ -1,79 +1,203 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Introtohtmlandcss : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Introtohtmlandcss</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/quietshu/introToHtmlAndCss">View on GitHub</a>
-
-          <h1 id="project_title">Introtohtmlandcss</h1>
-          <h2 id="project_tagline"></h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/quietshu/introToHtmlAndCss/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/quietshu/introToHtmlAndCss/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Introtohtmlandcss maintained by <a href="https://github.com/quietshu">quietshu</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Intro to HTML & CSS</title>
     
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
 
-  </body>
+	<link href="css/fontStyle.css" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+        <q>HTML & CSS 初步</q>
+        <br/>
+        <p>学生会信息部</p>
+    </div>
+
+    <div class="step slide" data-x="0" data-y="-1500">
+        <q>为什么要学习 HTML？</q>
+        <br/>
+        <p>你看到的每一个网页都是用一种叫做 HTML 的语言编写的，HTML 定义了网页的结构。</p>
+        <p>网页信息在传入电脑时，只是一串 HTML 代码。<strong>浏览器</strong>的作用便是将 HTML 显示成我们看到的界面。</p>
+        <p><strong>HTML 是网络技术的基础之一</strong>。</p>
+    </div>
+
+    <div class="step slide" data-x="1000" data-y="-1500">
+        <q>HTML 基本语法</q>
+        <br/>
+        <pre>
+	        <code>
+&lt;!doctype html&gt;	<div class="note">声明文档类型为 HTML</div>
+&lt;html&gt;						<div class="note">尖括号相当于 begin 和 end</div>
+	...
+	&lt;body&gt;					<div class="note">页面本体</div>
+		...
+	&lt;/body&gt;	
+&lt;/html&gt;
+	        </code>
+        </pre>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-1500">
+        <q>一个简单的例子</q>
+        <br/>
+        <pre>
+	        <code>
+&lt;!doctype html&gt;	
+&lt;html&gt;	
+	&lt;body&gt;	
+    &lt;p&gt;hello, world&lt;/p&gt;									
+    &lt;p&gt;&lt;i&gt;hello, world&lt;/i&gt;&lt;/p&gt;				
+    &lt;p&gt;&lt;strong&gt;hello, world&lt;/strong&gt;&lt;/p&gt;	
+      <div class="note">p：一段文字，i：斜体，strong：加粗</div>
+	&lt;/body&gt;	
+&lt;/html&gt;
+	        </code>
+        </pre>
+    </div>
+
+    <div class="step slide" data-x="2000" data-y="-2300">
+        <q>demo</q>
+        <br/>
+        <p>hello, world</p>									
+		<a><i>hello, world</i></p>
+		<p><strong style="text-decoration: none">hello, world</strong></p>
+    </div>
+   
+    <div class="step slide" data-x="3000" data-y="-1500">
+        <q>以此类推</q>
+        <br/>
+        <p>HTML 具有许多用途不同的标签</p>
+        <p>标签具有<strong>属性</strong>，例如 &lt;p align="center"&gt;...&lt;/p&gt;</p>
+        <p>标签可以互相嵌套，标签的特性会传递给其儿子</p>
+        <p>大部分标签成双出现，开、闭标签需要按照结构对应</p>
+        <hr/>
+        <p>总的来说，按嵌套盒模型（HTML 的层次结构），HTML 清晰地表示了一个网页的<strong>逻辑</strong></p>
+    </div>
+
+    <div class="step slide" data-x="4000" data-y="-1500">
+        <q>举个例子</q>
+        <br/>
+        <img src="img/renren.png" width="750"/>
+		<p></p>
+    </div>
+ 
+    <div class="step slide" data-x="4000" data-y="-2300">
+        <q>人人页面，HTML 的大致<strong>逻辑</strong></q>
+        <br/>
+        <pre>
+	        <code>
+...	
+	&lt;body&gt;	
+    &lt;菜单栏&gt;...&lt;/菜单栏&gt;	
+    &lt;页面&gt;
+      &lt;左边栏&gt;...&lt;/左边栏&gt;	
+      &lt;新鲜事&gt;...&lt;/新鲜事&gt;	
+      &lt;右边栏&gt;...&lt;/右边栏&gt;	
+    &lt;/页面&gt;	
+	&lt;/body&gt;
+	        </code>
+        </pre>
+    </div>
+       
+    <div class="step slide" data-x="5000" data-y="-1500">
+        <q>Then...</q>
+        <br/>
+		<p>请访问 W3School - ( www.w3school.com.cn/html ) 自学基础的 HTML 知识</p>
+		<p>CodeCademy - ( www.codecademy.com ) 是个不错的 Web 知识自学站</p>
+    </div>
+    
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">
+        <p class="try">Web 编程很注重<strong>分工</strong>：</p>
+        <br/>
+        <h1><strong>逻辑</strong>与<strong>样式</strong>是分开的</h1>
+        <span class="footnote">样式就得靠 CSS 了 - CSS（层叠样式表）</span>
+    </div>
+
+    <div class="step slide" data-x="5000" data-y="2000" data-rotate="180">
+        <q>CSS 初步</q>
+        <br/>
+		<p>单靠 HTML 无法建出美观的网页<p>
+		<p>CSS 的作用是描述 HTML 元素的外观</p>
+		<div style="font-family:Consolas;font-size:80%">
+		<p>&lt;p style="color:red"&gt;hello&lt;/p&gt; → <span style="color:red">hello</span></p>
+		<p>&lt;p style="font-size:50px"&gt;50像素&lt;/p&gt; → <span style="font-size:50px">五十像素</span></p>
+		<p>&lt;p style="text-decoration:underline"&gt;下划线&lt;/p&gt; → <span style="text-decoration: underline">下划线</span></p>
+		</div>
+        <br/>
+		<p>位置、颜色、字体、大小、间距、…… → CSS</p>
+    </div>
+
+    <div class="step slide" data-x="4000" data-y="2000" data-rotate="180">
+        <q>CSS 与 HTML</q>
+        <br/>
+		<p>HTML 在 body 标签开始前，有一个 head 标签，用来声明此 HTML 的关联文件等信息</p>
+		<div style="font-family:Consolas;font-size:80%">
+		<p>&lt;link href="style.css" rel="stylesheet" /&gt;</p>
+		</div>
+		<p>调用与此 .html 文件同一目录下的 style.css</p>
+    </div>
+
+    <div class="step slide" data-x="3000" data-y="2000" data-rotate="180">
+        <q>style.css</q>
+        <br/>
+		<pre>
+		<code>
+p {
+  color: red;
+  font-style: italic;
+}
+p.myClass {
+  color: blue;
+}
+		</code>
+		</pre>
+    </div>
+    
+    <div class="step slide" data-x="2000" data-y="2000" data-rotate="180">
+        <q>demo</q>
+        <br/>
+		<p>引用了 style.css 的 .html 文件显示效果</p>
+		<div style="font-family:Consolas;font-size:80%">
+		<p>&lt;p&gt;hello&lt;/p&gt; → <span style="color:red">hello</span></p>
+		<p>&lt;p class="myClass"&gt;hello&lt;/p&gt; → <span style="color:blue">hello</span></p>
+		<p>class 和 id 两个常用属性相当于<strong>标签的标示符</strong>。也可以理解为，标签名是<strong>公共类型</strong>，id 是<strong>变量名</strong>，class 是<strong>自定义的类型</strong></p>
+		</div>
+    </div>
+    
+    <div class="step slide" data-x="1000" data-y="2000" data-rotate="180">
+        <q>任务</q>
+        <br/>
+		<p>HTML 和 CSS 初步大致就到这里，请大家自己去 W3School 进一步学习</p>
+		<p>常见浏览器都有检查元素和查看网页源码的功能，可以自己看看一些网页的实现</p>
+        <br/>
+		<p>Thanks！</p>
+    </div>  
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
 </html>
