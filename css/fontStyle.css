@@ -1,0 +1,29 @@
+p small {
+	font-size: 60%;
+}
+p {
+	margin-bottom: 1em !important;
+}
+
+strong {
+	text-decoration: underline;
+}
+
+code {
+	display: block;
+	font-family: Consolas !important;
+	background: #e5e5e5;
+	text-align: left !important;
+	tab-size: 2;
+	padding-left: 30px !important;
+}
+
+code .note{
+	font-style: italic;
+	color: #999;
+	display: inline-block;
+}
+
+h1{
+	font-size: 200% !important;
+}
